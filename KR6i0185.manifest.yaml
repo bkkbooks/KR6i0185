@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6i0185/v1
+canonical_location: https://kanripo.org/bkk/KR6i0185/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說奈女耆婆經
+  identifiers:
+    alt_id:
+    - T14n0554
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0554.xml
+    old_id: T14n0554
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0185_000.yaml, hash: 'sha256:cb3b6a0b6ebf396ff333f0c9986f82ffcef5a15dfb6ab5a86c563946eba1a33a'}
+  - {seq: 1, filename: KR6i0185_001.yaml, hash: 'sha256:52371cf6d990a8f2157600431818e64189ec3dad864e6032934c7aea9756eeb0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0185_001.markers.yaml, hash: 'sha256:53c3578d6638f30737c553b93b30f9e3e26a26a274a262c01f8bb6d1f0ab7440'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0185_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 5895
+  label: 佛說奈女耆婆經
+  type: juan
+  level: 1
+hash: sha256:2c330d39c96a41b27bb72ed2b7f02a1589baea2d154f02125997a9f590aa3dc1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

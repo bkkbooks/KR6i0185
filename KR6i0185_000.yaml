@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0185/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說奈女耆婆經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0554.xml
+    old_id: T14n0554
+hash: sha256:cb3b6a0b6ebf396ff333f0c9986f82ffcef5a15dfb6ab5a86c563946eba1a33a
